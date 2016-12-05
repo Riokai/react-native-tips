@@ -11,7 +11,8 @@ React Native开启了开发原生App的新方式，不仅提高了开发效率�
 
 ### 模拟器
 
-* [开启远程调试后App卡顿主要是因为调试Tab处于后台状态，解决的方法很简单：前置该Tab或者让Tab成为一个独立的窗口](https://github.com/facebook/react-native/issues/10559)
+* [开启远程调试后App卡顿主要是因为调试Tab处于后台状态，解决：前置该Tab或者让Tab成为一个独立的窗口](https://github.com/facebook/react-native/issues/10559)
 ```sh
-Remote debugger is in a background tab which may cause apps to perform slowly. Fix this by foregrounding the tab (or opening it in a separate window).
+Remote debugger is in a background tab which may cause apps to perform slowly.
+Fix this by foregrounding the tab (or opening it in a separate window).
 ```
